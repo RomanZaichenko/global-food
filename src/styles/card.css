@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');@tailwind;
 @tailwind;
 
 
@@ -7,4 +8,21 @@
 
 .card img {
     @apply w-full;
+}
+
+.card-container {
+    @apply w-full relative;
+    font-family: "Pacifico", cursive;
+}
+
+.price {
+    @apply absolute right-[0] bottom-[50px] -mt-[20px] bg-[#fff] px-[5px] text-[#5dbbf9];
+}
+
+.price-text {
+    @apply text-[24px]
+}
+
+.card-title {
+    @apply text-[#5dbbf9] mt-[10px] mb-[20px];
 }

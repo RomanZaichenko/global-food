@@ -18,3 +18,11 @@
 .header-logo img {
     @apply w-full;
 }
+
+.burger {
+    @apply w-[40px] absolute right-[20px];
+}
+
+.burger img {
+    @apply w-full;
+}
