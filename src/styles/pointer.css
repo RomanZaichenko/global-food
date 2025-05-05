@@ -1,0 +1,9 @@
+@tailwind;
+
+.pointer {
+    @apply w-[25px];
+}
+
+.pointer-image {
+    @apply w-[25px];
+}

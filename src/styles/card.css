@@ -1,0 +1,10 @@
+@tailwind;
+
+
+.card {
+    @apply w-[150px];
+}
+
+.card img {
+    @apply w-full;
+}

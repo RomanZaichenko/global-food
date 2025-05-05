@@ -1,0 +1,9 @@
+@tailwind;
+
+.map {
+    @apply max-w-screen w-full;
+}
+
+.map-image {
+    @apply w-full;
+}

@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
+@tailwind;
+
+.header {
+    @apply flex bg-[#f590b2]  mt-[10%] text-center relative
+    justify-center items-center;
+}
+
+.header-title {
+    @apply text-[#5dbbf9];
+    font-family: "Satisfy", cursive;
+}
+
+.header-logo {
+    @apply absolute right-[0] top-[50px] max-w-[60px];
+}
+
+.header-logo img {
+    @apply w-full;
+}

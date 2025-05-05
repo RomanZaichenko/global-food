@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');@tailwind;
+
+
+.country-name {
+    @apply text-center text-[#5dbbf9] text-[30px] mt-[30px] mb-[20px];
+    font-family: "Pacifico", cursive;
+}
+
+.cards-area {
+    @apply flex flex-wrap justify-between px-[20px] pb-[150px];
+}
