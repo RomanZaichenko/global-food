@@ -14,34 +14,34 @@ export function Pointer({ x, y, country, rotate, onClick }: PointerProps) {
 
   switch (country) {
     case "korea":
-      image = "src/images/korea.svg";
+      image = "/images/korea.svg";
       break;
     case "france":
-      image = "src/images/france.svg";
+      image = "/images/france.svg";
       break;
     case "italy":
-      image = "src/images/italy.svg";
+      image = "/images/italy.svg";
       break;
     case "germany":
-      image = "src/images/germany.svg";
+      image = "/images/germany.svg";
       break;
     case "switzerland":
-      image = "src/images/switzerland.svg";
+      image = "/images/switzerland.svg";
       break;
     case "uk":
-      image = "src/images/uk.svg";
+      image = "/images/uk.svg";
       break;
     case "usa":
-      image = "src/images/usa.svg";
+      image = "/images/usa.svg";
       break;
     case "china":
-      image = "src/images/china.svg";
+      image = "/images/china.svg";
       break;
     case "japan":
-      image = "src/images/japan.svg";
+      image = "/images/japan.svg";
       break;
     case "turkey":
-      image = "src/images/turkey.svg";
+      image = "/images/turkey.svg";
       break;
     default:
       break;

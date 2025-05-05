@@ -9,7 +9,7 @@ export function CardElement({card}: CardProps) {
   return (
     <>
       <div className="card">
-        <img src={`src/images/${card.country}/product-${card.productNumber}.jpg`} alt="" className="card-image"/>
+        <img src={`/images/${card.country}/product-${card.productNumber}.jpg`} alt="" className="card-image"/>
       </div>
     </>
   )
